@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-home
+---
+{{ content | safe }}
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+{% for slide in metadata.slides %}
+    <div class="swiper-slide">
+        <img src="{{ slide }}" alt="" class="slider__slide-img"/>
+    </div>
+    {% endfor %}
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+<a href="{{ metadata.links.bonga_profile }}" target="_blank" class="main__btn-subscribe">Подпишись!</a>
+
+<a href="{{ metadata.links.bonga }}" target="_blank" class="main__btn">Войди в мой эфир</a>

@@ -1,0 +1,34 @@
+{
+  "name": "villainess_website",
+  "version": "1.0.0",
+  "description": "Website webcam model Villainess using the Eleventy static site generator.",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/villaine55/mywebsite.git"
+  },
+  "author": {
+    "name": "nullorone",
+    "email": "villaine55@ya.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/villaine55/mywebsite/issues"
+  },
+  "homepage": "https://github.com/villaine55/mywebsite#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
+    "luxon": "^1.26.0",
+    "markdown-it": "^12.0.4",
+    "markdown-it-anchor": "^7.1.0"
+  }
+}
