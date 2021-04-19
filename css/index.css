@@ -223,15 +223,15 @@ body {
 }
 
 .footer__link_onlyfans {
-  background-image: url('/img/onlyfans.png');
+  background-image: url('./img/onlyfans.png');
 }
 
 .footer__link_instagram {
-  background-image: url('/img/insta.png');
+  background-image: url('./img/insta.png');
 }
 
 .footer__link_twitter {
-  background-image: url('/img/twitter.png');
+  background-image: url('./img/twitter.png');
 }
 
 @media (max-width: 1023px) {
